@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary: #2D6A4F;
+  --dark: #1B4332;
+  --light: #F1FAEE;
+  --accent: #FFB703;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1b433200/* Or any background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark); /* Scrollbar handle */
+  border-radius: 4px;
+}
+
+
+
+
+
+/* some coustom css by me */
